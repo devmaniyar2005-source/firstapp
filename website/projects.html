@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Maniyar | Projects</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-indigo-900 text-white p-4 sticky top-0 z-50 shadow-lg" data-aos="fade-down">
+        <div class="max-w-7xl mx-auto flex flex-col gap-4 md:flex-row md:items-center">
+            <h1 class="text-2xl font-bold text-emerald-400"><a href="index.html">Dev Maniyar</a></h1>
+            <nav class="md:ml-auto">
+                <ul class="flex gap-x-5 text-sm font-semibold">
+                    <li><a href="about.html" class="hover:text-emerald-400">About</a></li>
+                    <li><a href="projects.html" class="hover:text-emerald-400 text-emerald-400">Projects</a></li>
+                    <li><a href="skills.html" class="hover:text-emerald-400">Skills</a></li>
+                    <li><a href="experience.html" class="hover:text-emerald-400">Experience</a></li>
+                    <li><a href="contact.html" class="hover:text-emerald-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-indigo-900">Featured Projects</h2>
+                <div class="w-24 h-1 bg-emerald-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <article class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100" data-aos="fade-up">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white">
+                        <i class="fas fa-hospital text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-900 mb-2">Hospital Management System</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Python GUI desktop application managing patient records, doctor scheduling, and ward administration via SQLite integration.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded">Python</span>
+                            <span class="bg-emerald-100 text-emerald-700 text-xs px-2 py-1 rounded">Tkinter</span>
+                            <span class="bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded">SQLite</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-48 bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white">
+                        <i class="fas fa-bus text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-900 mb-2">Bus Ticket Booking System</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Full-featured Python and MySQL system supporting trip searches, dynamic seat calculations, and user bookings.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded">Python</span>
+                            <span class="bg-teal-100 text-teal-700 text-xs px-2 py-1 rounded">MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white">
+                        <i class="fab fa-react text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-900 mb-2">React Web Interfaces</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Dynamic and responsive modern web pages utilizing component-based architecture and state management.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded">React JS</span>
+                            <span class="bg-yellow-100 text-yellow-700 text-xs px-2 py-1 rounded">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-indigo-950 text-white py-8 text-center">
+        <p>&copy; 2026 Dev Maniyar. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800 });</script>
+</body>
+</html>

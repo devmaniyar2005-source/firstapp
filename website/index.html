@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Maniyar | Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- animate.style animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- ================= HEADER ================= -->
+    <header class="bg-indigo-700 text-white p-4 sticky top-0 z-50 shadow-md" data-aos="fade-down" data-aos-duration="800">
+        <div class="max-w-7xl mx-auto flex flex-col gap-4 md:flex-row md:items-center">
+            <h1 class="text-2xl sm:text-3xl font-bold text-center md:text-left logo-txt">
+                <a href="index.html">Dev Maniyar</a>
+            </h1>
+            <nav class="md:ml-auto">
+                <ul class="flex flex-wrap justify-center gap-x-5 gap-y-2 sm:gap-x-8 lg:gap-x-10 text-sm sm:text-base">
+                    <li><a href="about.html" class="hover:text-indigo-200 hover:underline transition">About</a></li>
+                    <li><a href="projects.html" class="hover:text-indigo-200 hover:underline transition">Projects</a></li>
+                    <li><a href="skills.html" class="hover:text-indigo-200 hover:underline transition">Skills</a></li>
+                    <li><a href="experience.html" class="hover:text-indigo-200 hover:underline transition">Experience</a></li>
+                    <li><a href="contact.html" class="hover:text-indigo-200 hover:underline transition">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= HERO / BANNER ================= -->
+    <section class="bg-gradient-to-r from-indigo-700 to-purple-700 min-h-[500px] flex items-center relative overflow-hidden">
+        <div class="max-w-7xl mx-auto w-full px-5 sm:px-8 md:px-12 lg:px-20 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center text-white">
+                
+                <!-- Profile Image -->
+                <div class="text-center" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.x2ACdm8Ayh5TgM2rebZUpwHaHa?r=0&pid=Api&P=0&h=180" alt="Dev Maniyar Profile Picture" class="rounded-full w-36 h-36 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover mx-auto border-4 border-white shadow-2xl profile-img">
+                </div>
+
+                <!-- Hero Content -->
+                <div class="text-center md:text-left" data-aos="fade-left" data-aos-duration="1000">
+                    <p class="text-indigo-200 text-base sm:text-lg mb-2">Hello, I'm</p>
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-5">Dev Maniyar</h2>
+                    <p class="text-lg sm:text-xl text-indigo-100 mb-6">React JS & Python Developer</p>
+                    <p class="text-sm sm:text-base lg:text-lg text-gray-100 leading-relaxed mb-8">
+                        I create dynamic, responsive and user-friendly web and desktop applications with a strong focus on modern design and great user experience.
+                    </p>
+                    <a href="contact.html" class="inline-block bg-white text-indigo-700 font-bold px-6 py-3 rounded-lg hover:bg-indigo-50 transition shadow-lg">Contact Me</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="py-16 sm:py-20 md:py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 lg:px-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 items-center">
+                
+                <!-- Image -->
+                <div class="text-center" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="About Dev" class="rounded-full w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover mx-auto shadow-2xl border-4 border-indigo-500 profile-img">
+                </div>
+
+                <!-- Content -->
+                <div data-aos="fade-left" data-aos-duration="1000">
+                    <span class="text-indigo-400 font-semibold">ABOUT ME</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-5">Building Digital Experiences</h2>
+                    <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-5">
+                        I am an IT student and developer based in Rajkot, Gujarat. I specialize in building robust React JS web applications, Kotlin Android apps, and comprehensive Python desktop solutions.
+                    </p>
+                    <p class="text-gray-300 text-base sm:text-lg leading-relaxed">
+                        I focus on writing clean, maintainable code while creating responsive interfaces that work smoothly across different devices.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="py-16 sm:py-20 md:py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 lg:px-20">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl sm:text-4xl font-bold">My Portfolio</h2>
+                <hr class="border-indigo-600 border-2 w-20 mx-auto mt-4">
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hospital Management" class="w-full h-52 sm:h-56 lg:h-60 object-cover portfolio-img">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">Hospital Management</h3>
+                        <p class="text-gray-600 leading-relaxed">Python GUI desktop application managing patient records and doctor scheduling via SQLite.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bus Booking" class="w-full h-52 sm:h-56 lg:h-60 object-cover portfolio-img">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">Bus Ticket Booking</h3>
+                        <p class="text-gray-600 leading-relaxed">Python and MySQL system supporting trip searches and user bookings.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Management" class="w-full h-52 sm:h-56 lg:h-60 object-cover portfolio-img">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">Hotel Management</h3>
+                        <p class="text-gray-600 leading-relaxed">Python GUI platform featuring room reservations and persistent database storage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="py-16 sm:py-20 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 lg:px-20">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl sm:text-4xl font-bold">My Skills</h2>
+                <hr class="border-indigo-600 border-2 w-20 mx-auto mt-4">
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6">
+                <div class="bg-blue-100 text-blue-700 p-5 rounded-lg text-center font-bold" data-aos="zoom-in">React JS</div>
+                <div class="bg-yellow-100 text-yellow-700 p-5 rounded-lg text-center font-bold" data-aos="zoom-in" data-aos-delay="100">Python</div>
+                <div class="bg-green-100 text-green-700 p-5 rounded-lg text-center font-bold" data-aos="zoom-in" data-aos-delay="200">Kotlin</div>
+                <div class="bg-cyan-100 text-cyan-700 p-5 rounded-lg text-center font-bold" data-aos="zoom-in" data-aos-delay="300">Tailwind CSS</div>
+                <div class="bg-purple-100 text-purple-700 p-5 rounded-lg text-center font-bold" data-aos="zoom-in" data-aos-delay="400">MySQL / SQLite</div>
+                <div class="bg-red-100 text-red-700 p-5 rounded-lg text-center font-bold" data-aos="zoom-in" data-aos-delay="500">Git</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="py-16 sm:py-20 md:py-24 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-5 sm:px-8 md:px-12">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl sm:text-4xl font-bold">Experience</h2>
+                <hr class="border-indigo-500 border-2 w-20 mx-auto mt-4">
+            </div>
+             <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 mb-8" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-900">Python Developer Trainee</h3>
+                        <p class="text-emerald-600 font-semibold">Infoway, Rajkot</p>
+                    </div>
+                    <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full font-bold">2024 - 2025</span>
+                </div>
+                <p class="text-gray-600 leading-relaxed">
+                    Focused on Python-based development, strengthening back-end logic, and building functional applications to solve real-world problems.
+                </p>
+            </div>
+
+            <div class="bg-slate-800 p-6 sm:p-8 md:p-10 rounded-xl shadow-xl" data-aos="fade-up">
+                <div class="flex flex-col md:flex-row md:justify-between gap-3 mb-5">
+                    <h3 class="text-xl sm:text-2xl font-bold text-indigo-400">React JS Developer Intern</h3>
+                    <span class="text-gray-400">2026 - Present | Rajkot</span>
+                </div>
+                <p class="text-gray-300 leading-relaxed">
+                    Actively engaging in paid internship opportunities to build responsive, component-driven React JS web applications while concurrently managing final academic deliverables. Integrating Git Bash version control protocols for seamless project collaboration.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="py-16 sm:py-20 md:py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 lg:px-20">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl sm:text-4xl font-bold">Contact Me</h2>
+                <hr class="border-indigo-600 border-2 w-20 mx-auto mt-4">
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+                <!-- Contact Information -->
+                <div class="bg-white p-6 sm:p-8 rounded-xl shadow-md" data-aos="fade-right">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-6">Contact Information</h3>
+                    <div class="space-y-4 text-gray-600">
+                        <p><strong>Email:</strong> contact@devmaniyar.com</p>
+                        <p><strong>Address:</strong> Block 303, Jyothirth Appartment, Guruprashad Chok, Rajkot, Gujarat</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white p-6 sm:p-8 rounded-xl shadow-md" data-aos="fade-left">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-6">Send Me a Message</h3>
+                    <form>
+                        <div class="mb-5">
+                            <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" class="border rounded-lg w-full py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div class="mb-5">
+                            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" class="border rounded-lg w-full py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div class="mb-5">
+                            <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message..." class="border rounded-lg w-full py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-indigo-700 text-white py-12 sm:py-16" data-aos="fade-up">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 lg:px-20 text-center">
+            <p>&copy; 2026 Dev Maniyar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ================= AOS JS ================= -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: "ease-in-out",
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>

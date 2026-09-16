@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Maniyar | Contact</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-indigo-900 text-white p-4 sticky top-0 z-50 shadow-lg" data-aos="fade-down">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center">
+            <h1 class="text-2xl font-bold text-emerald-400"><a href="index.html">Dev Maniyar</a></h1>
+            <nav class="md:ml-auto mt-4 md:mt-0">
+                <ul class="flex gap-x-5 text-sm font-semibold">
+                    <li><a href="about.html" class="hover:text-emerald-400">About</a></li>
+                    <li><a href="projects.html" class="hover:text-emerald-400">Projects</a></li>
+                    <li><a href="skills.html" class="hover:text-emerald-400">Skills</a></li>
+                    <li><a href="experience.html" class="hover:text-emerald-400">Experience</a></li>
+                    <li><a href="contact.html" class="text-emerald-400 hover:text-emerald-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-indigo-900">Let's Connect</h2>
+                <div class="w-24 h-1 bg-emerald-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100" data-aos="fade-right">
+                    <h3 class="text-2xl font-bold text-indigo-900 mb-6">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold">@</div>
+                            <div>
+                                <p class="text-sm text-gray-500">Email</p>
+                                <p class="font-bold">contact.dev@example.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">📍</div>
+                            <div>
+                                <p class="text-sm text-gray-500">Address</p>
+                                <p class="font-bold">Block 303, Jyothirth Appartment</p>
+                                <p class="text-gray-600 text-sm">Guruprashad Chok, Rajkot, Gujarat, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100" data-aos="fade-left">
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-1">Name</label>
+                            <input type="text" class="w-full border-gray-300 rounded-lg shadow-sm bg-gray-50 p-3 focus:ring-emerald-500 focus:border-emerald-500" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-1">Email</label>
+                            <input type="email" class="w-full border-gray-300 rounded-lg shadow-sm bg-gray-50 p-3 focus:ring-emerald-500 focus:border-emerald-500" placeholder="Your Email">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-1">Message</label>
+                            <textarea rows="4" class="w-full border-gray-300 rounded-lg shadow-sm bg-gray-50 p-3 focus:ring-emerald-500 focus:border-emerald-500" placeholder="Let's build something..."></textarea>
+                        </div>
+                        <button type="button" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 rounded-lg transition-colors">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-indigo-950 text-white py-8 text-center mt-auto">
+        <p>&copy; 2026 Dev Maniyar. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800 });</script>
+</body>
+</html>
